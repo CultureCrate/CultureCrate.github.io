@@ -1,0 +1,210 @@
+body {
+    font-family: palatino linotype;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+a:link {
+    text-decoration: none;
+}
+        
+a:visited {
+    text-decoration: none;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #a8d864;
+    position: fixed; 
+    top: 0; 
+    width: 97.6%; 
+    z-index: 5;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+}
+.navbar a.home:link {
+    color: black;
+    float: left;
+    font-weight: bold;
+    font-size: 250%;
+    font-family: Bernard MT Condensed;
+    padding-top: .1%;
+    padding-bottom: .1%;
+    text-shadow: 1px 2px  white;
+}.navbar a.home:visited {
+    color: black;
+}.navbar a.home:hover {
+    color: #a8a6a6;
+    font-size: 255%;
+}
+.navbar a:link:not(.home) {
+    color: black;
+    font-weight: bold;
+    font-size: 150%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: .1%;
+    padding-bottom: .5%;
+}.navbar a:visited:not(.home) {
+    color: black;
+}.navbar a:hover:not(.home) {
+    color: #a8a6a6;
+    font-size: 152%;
+}
+
+.logo{
+    width: 3%;
+    margin-right: 5px;
+    float: left;
+    padding-bottom: 0px;
+    border-radius: 60%;
+}
+.navbar a.activeLink:link {
+    border-bottom: solid 7px black;
+}
+
+.welcome {
+    position: relative;
+    overflow: hidden;
+    margin-top: 3.9%;
+} .welcome h1{
+    padding: 2.5%;
+    position: relative;
+    z-index: 2;
+    font-size: 600%;
+    text-shadow: 3px 5px black;
+    letter-spacing: 3px;
+    color: white;
+    font-family: Bernard MT Condensed;
+    
+} .welcome img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: .7;
+}
+
+.txt1 {
+    background-color: #a5a4a4;
+    color: white;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 130%;
+}
+.txt2 {
+    color: black;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 200%;
+    font-weight: bold;
+}
+.txt3 {
+    color: black;
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 130%;
+}
+
+
+#welcomelogo {
+    float: right;
+    display: inline;
+    width: 35%;
+    border-radius: 60%;
+}
+
+ul{text-decoration: underline; color: #04cc32;}
+
+
+.stufflist {
+    font-size: 80%;
+    list-style-type: none;
+    margin-left: 10%;
+    font-style: italic;
+}
+
+#package{width: 10%; display: inline; float: left; margin-right: 10px;}
+#usapin{width: 7%; display: inline; margin-right: 10px; float: left;}
+#culture{width: 10%; display: inline;}
+#warehousePic{width: 40%;float: left; margin-right: 20px;}
+#youtube{width: 25%;float: left;}
+
+#italy {
+    text-align: center;
+    background-image: url(images/italybkg.jpg);
+    padding: 30%;
+    font-size: 330%;
+    text-shadow: 5px 4px black;
+    text-decoration: underline;
+    
+}
+
+.italy {
+    position: relative;
+    overflow: hidden;
+    background-color: #a5a4a4;
+    color: white;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 18px;
+} .italy h1{
+    padding: 2.5%;
+    position: relative;
+    z-index: 2;
+    font-size: 200%;
+    text-shadow: 3px 5px black;
+    letter-spacing: 3px;
+    color: white;
+    font-family: Bernard MT Condensed;
+    text-align: center;
+} .italy img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;    
+    height: auto;
+    opacity: .7;
+}
+
+#pasta{float: left; width: 20%; height: 100%; margin-right: 10px;}
+
+.boldText {
+    text-align: center;
+    text-decoration:underline;
+    color:#04cc32;
+}
+
+.pagelogo{
+    float: right;
+    width: 20%;
+    border-radius: 60%;
+}
+
+.total{text-decoration: underline;font-weight: bold;}
